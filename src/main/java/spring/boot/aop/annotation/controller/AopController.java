@@ -12,7 +12,7 @@ public class AopController {
 
     @RequestMapping("/logAop")
     @LogAnnotation("logAopController")
-    public Object second() {
+    public Object logAop() {
         System.out.println("logAop controller");
         return "logAop controller";
     }
